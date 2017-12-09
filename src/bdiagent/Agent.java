@@ -251,7 +251,10 @@ public class Agent extends Thread {
 			int temp =0;
 			while(!isMatchFound()){
 				updateSecondarysImportance(i-sday);
+				updateYourself(i-sday);
 				newAgent.calculateUpdatedIntention(i, temp);
+
+				updateIntentions(i, temp);
 				compareIntentions(i-sday);
 				temp++;
 				
@@ -262,6 +265,113 @@ public class Agent extends Thread {
 		} catch (IOException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
+		}
+	}
+	public void updateYourself(int turn){
+		for(Event event: newAgent.intentions.get(turn).events){
+			for(Event eventItself: events){
+				if(event.explanation.equalsIgnoreCase(eventItself.explanation)){
+					double effect = Math.abs(event.totalimportance-eventItself.totalimportance);
+					effect = effect/5;
+					if(event.totalimportance>0.7){
+						event.friendsRequestHandler(effect);
+						System.out.println("Agent2K update intention to go to "+ event.explanation+" around "+(effect)+"\n");
+						break;
+					}else if(event.totalimportance>0.6){
+						event.friendsRequestHandler(effect);
+						System.out.println("Agent2K update intention to go to "+ event.explanation+" around "+(effect)+"\n");
+						break;
+					}
+					else if(event.totalimportance>0.5){
+						event.friendsRequestHandler(effect);
+						System.out.println("Agent2K update intention to go to "+ event.explanation+" around "+(effect)+"\n");
+						break;
+					}else if(event.totalimportance>0.4){
+						event.friendsRequestHandler(effect);
+						System.out.println("Agent2K update intention to go to "+ event.explanation+" around "+(effect)+"\n");
+						break;
+					}else if(event.totalimportance>0.3){
+						System.out.println("Zaum cannot update intention to go to "+ event.explanation+"\n");
+						break;
+					}
+				}
+			}
+		}
+		
+	}
+	public void updateIntentions (int i,int current) {
+		FileWriter fw = null;
+		BufferedWriter console2;
+		try {
+			fw = new FileWriter("consoleUpdated"+current+".txt");
+			console2 = new BufferedWriter(fw);
+			console2.write("\n");
+			console2.write("\n");
+			//System.out.println(name+" wakes up at Day "+i);
+			console2.write(name+" wakes up at Day "+i);
+			Desire desire = new Desire(i);
+			for(int d=i;d<=eday;d++) {
+				for(int e=0;e<events.size();e++) {
+					if(events.get(e).day==d && events.get(e).period.equalsIgnoreCase("Day")) {
+						if(events.get(e).getTotal()>this.desireThreshold)
+							desire.addEvent(events.get(e));
+					}
+				}
+				for(int e=0;e<events.size();e++) {
+					if(events.get(e).day==d && events.get(e).period.equalsIgnoreCase("Night")) {
+						if(events.get(e).getTotal()>this.desireThreshold)
+							desire.addEvent(events.get(e));
+					}
+				}
+			}
+			desires.remove(desires.size()-1);
+			desires.add(desire);
+			//System.out.println();
+			console2.write("\n");
+			//console.write(desire.toString());
+			console2.write(desire.toStringTenDesire());
+			console2.write("\n");
+			//System.out.println(desire.toString());
+			Intention intention = new Intention(i);
+			for(int d=i;d<=eday;d++) {
+				Event ev = null;
+				Event ev2 = null;
+				double temp=0;
+				for(int e=0;e<events.size();e++) {
+					if(events.get(e).day==d && events.get(e).period.equalsIgnoreCase("Day")) {
+						if(events.get(e).getTotal()>temp) {
+							desire.addEvent(events.get(e));
+							ev=events.get(e);
+							temp=events.get(e).getTotal();
+						}
+					}
+				}
+				if(ev!=null)
+					intention.addEvent(ev);
+				temp=0;
+				for(int e=0;e<events.size();e++) {
+					if(events.get(e).day==d && events.get(e).period.equalsIgnoreCase("Night")) {
+						if(events.get(e).getTotal()>temp) {
+							desire.addEvent(events.get(e));
+							ev2=events.get(e);
+							temp=events.get(e).getTotal();
+						}
+					}
+				}
+				if(ev2!=null)
+					intention.addEvent(ev2);
+			}
+			intentions.remove(intentions.size()-1);
+			intentions.add(intention);
+			//System.out.println();
+			//System.out.println(intention.toString());
+			console2.write("\n");
+			console2.write(intention.toString());
+			console2.write("\n");
+			console2.close();
+		} catch (IOException e2) {
+			// TODO Auto-generated catch block
+			e2.printStackTrace();
 		}
 	}
 	boolean matchFound =false;
@@ -458,7 +568,9 @@ public class Agent extends Thread {
 			}
 		}
 		else if(scenario==2) {
-			
+			for(int i=0;i<30;i++) {
+				this.mytrustedagents.add(allagents.get(i+30));
+			}
 		}
 	}
 	public void setMovieRatings(){

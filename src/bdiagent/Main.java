@@ -12,7 +12,7 @@ public class Main {
 		int endday= 21;
 		String name= "Agent2K";
 		int type = 1;// ask to user at the beginning
-		int scenario=1;
+		int scenario=2;
 		Thread agent = new Agent(name,startday,endday,type,scenario);
 	}
 

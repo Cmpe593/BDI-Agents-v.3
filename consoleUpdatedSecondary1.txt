@@ -19,13 +19,13 @@ List of 10 Desires day 15:
 
 List of Intentions day 15:
 "Movie 261 and type: Comedy" in Day 16, its period is Day and its importance is 0.7452482655541206
-"Movie 167 and type: War" in Day 16, its period is Night and its importance is 0.7206877105190447
+"Movie 534 and type: Comedy" in Day 16, its period is Night and its importance is 0.5199054710029212
 "Movie 126 and type: Comedy" in Day 17, its period is Day and its importance is 0.746978948700729
-"Movie 147 and type: Comedy" in Day 17, its period is Night and its importance is 0.7500138303046289
+"Movie 1045 and type: Comedy" in Day 17, its period is Night and its importance is 0.5451419216456018
 "Movie 54 and type: Action" in Day 18, its period is Day and its importance is 0.7349882385390243
-"Movie 136 and type: Sci-Fi" in Day 18, its period is Night and its importance is 0.7309002305007635
+"Movie 331 and type: Sci-Fi" in Day 18, its period is Night and its importance is 0.5622280079113473
 "Movie 190 and type: Comedy" in Day 19, its period is Day and its importance is 0.8049645502620157
-"Movie 16 and type: Comedy" in Day 19, its period is Night and its importance is 0.7358128784428459
+"Movie 1179 and type: Comedy" in Day 19, its period is Night and its importance is 0.5666685913341886
 "Movie 78 and type: Comedy" in Day 20, its period is Day and its importance is 0.7608018349868061
 "Movie 285 and type: Comedy" in Day 20, its period is Night and its importance is 0.6943654082848556
 "Movie 193 and type: Comedy" in Day 21, its period is Day and its importance is 0.6732098018262351

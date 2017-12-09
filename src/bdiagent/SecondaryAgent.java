@@ -149,16 +149,16 @@ public class SecondaryAgent {
 					return true;
 				}else if(event.totalimportance>0.6){
 					event.friendsRequestHandler(agentDesire*0.3);
-					System.out.println("Zaum update intention to go to "+ explanation+"around"+(agentDesire*0.5)+"\n");
+					System.out.println("Zaum update intention to go to "+ explanation+"around"+(agentDesire*0.3)+"\n");
 					return true;
 				}
 				else if(event.totalimportance>0.5){
 					event.friendsRequestHandler(agentDesire*0.2);
-					System.out.println("Zaum update intention to go to "+ explanation+"around"+(agentDesire*0.5)+"\n");
+					System.out.println("Zaum update intention to go to "+ explanation+"around"+(agentDesire*0.2)+"\n");
 					return true;
 				}else if(event.totalimportance>0.4){
 					event.friendsRequestHandler(agentDesire*0.1);
-					System.out.println("Zaum update intention to go to "+ explanation+"around"+(agentDesire*0.5)+"\n");
+					System.out.println("Zaum update intention to go to "+ explanation+"around"+(agentDesire*0.1)+"\n");
 					return true;
 				}else if(event.totalimportance>0.3){
 					System.out.println("Zaum cannot update intention to go to "+ explanation+"\n");

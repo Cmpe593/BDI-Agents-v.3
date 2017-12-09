@@ -10,12 +10,12 @@ public class Event {
 	int month;
 	String type;
 	String eventType;
-	protected double totalimportance;
-	protected double baseimportance;
-	protected double additionalimportance;
-	protected double totalAdditionalimportance;
-	protected int additionalCounter;
-	protected int lockAdditionalDegree;
+	 double totalimportance;
+	 double baseimportance;
+	 double additionalimportance;
+	 double totalAdditionalimportance;
+	 int additionalCounter;
+	 int lockAdditionalDegree;
 	 double friendsImportance;
 	String explanation;
 	String period;
@@ -119,4 +119,5 @@ public class Event {
 	public String eventInfo(){
 		return "\""+explanation+"\" in Day "+day+ ", its period is "+period+" and its importance is " + (baseimportance+additionalimportance)  ;
 	}
+	
 }

@@ -1,0 +1,34 @@
+
+
+Agent2K wakes up at Day 15
+List of 10 Desires day 15:
+"Flight to Amsterdam" in Day 15, its period is Night and its importance is 0.9649621151487754
+"Movie 31 and type: Sci-Fi" in Day 16, its period is Day and its importance is 0.5531115018799269
+"Movie 40 and type: Action" in Day 16, its period is Day and its importance is 0.4666362700968503
+"Movie 80 and type: Action" in Day 16, its period is Day and its importance is 0.45997585096441407
+"Movie 82 and type: Action" in Day 16, its period is Day and its importance is 0.4541600445080139
+"Movie 83 and type: Drama" in Day 16, its period is Day and its importance is 0.44343524439572785
+"Movie 138 and type: Comedy" in Day 16, its period is Day and its importance is 0.46664705295309417
+"Movie 150 and type: Documentary" in Day 16, its period is Day and its importance is 0.41338688722992295
+"Movie 162 and type: Comedy" in Day 16, its period is Day and its importance is 0.5907818135579981
+"Movie 163 and type: Action" in Day 16, its period is Day and its importance is 0.4618891970423675
+.
+.
+.
+
+
+List of Intentions day 15:
+"Flight to Amsterdam" in Day 15, its period is Night and its importance is 0.9649621151487754
+"Conference talk speaker" in Day 16, its period is Day and its importance is 1.5
+"Movie 534 and type: Comedy" in Day 16, its period is Night and its importance is 0.6228963099921957
+"Conference talk listener day 2" in Day 17, its period is Day and its importance is 0.816079024343875
+"Movie 1045 and type: Comedy" in Day 17, its period is Night and its importance is 0.6570360545893594
+"Conference talk listener day 3" in Day 18, its period is Day and its importance is 0.9593817815161895
+"Movie 331 and type: Sci-Fi" in Day 18, its period is Night and its importance is 0.7770955612620569
+"Conference talk listener day 4" in Day 19, its period is Day and its importance is 0.8118810772439219
+"Movie 1179 and type: Comedy" in Day 19, its period is Night and its importance is 0.7318816098728786
+"Conference talk listener day 5" in Day 20, its period is Day and its importance is 0.8079977223902606
+"Conference dinner" in Day 20, its period is Night and its importance is 0.9413620615699567
+"Conference talk listener day 6" in Day 21, its period is Day and its importance is 0.9008413474740119
+"Flight to Istanbul" in Day 21, its period is Night and its importance is 0.9947771081962055
+
