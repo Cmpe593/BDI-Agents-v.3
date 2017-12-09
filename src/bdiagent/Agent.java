@@ -303,7 +303,7 @@ public class Agent extends Thread {
 		FileWriter fw = null;
 		BufferedWriter console2;
 		try {
-			fw = new FileWriter("consoleUpdated"+current+".txt");
+			fw = new FileWriter("consoleUpdated"+i+"_"+current+".txt");
 			console2 = new BufferedWriter(fw);
 			console2.write("\n");
 			console2.write("\n");

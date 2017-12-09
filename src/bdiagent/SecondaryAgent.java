@@ -172,7 +172,7 @@ public class SecondaryAgent {
 		FileWriter fw = null;
 		BufferedWriter console1;
 		try {
-			fw = new FileWriter("consoleUpdatedSecondary"+current+".txt");
+			fw = new FileWriter("consoleUpdatedSecondary"+i+"_"+current+".txt");
 			console1 = new BufferedWriter(fw);
 			console1.write("\n");
 			console1.write("\n");
