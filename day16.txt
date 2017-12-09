@@ -1,0 +1,22 @@
+{
+	'change': {
+		'type': 'update-event',
+		'explanation': 'Conference talk speaker',
+		'time': 3
+	}
+}
+!!!
+{
+	'change': {
+		'type': 'drop-event',
+		'explanation': 'Concert day 5'
+	}
+}
+!!!
+{
+	'movie-rating': {
+		'agent': '10',
+		'movieID': '901',
+		'rating': '800.0'
+	}
+}

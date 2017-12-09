@@ -1,0 +1,66 @@
+
+
+Zaum wakes up at Day 15
+List of 10 Desires day 15:
+"Movie 12 and type: Action" in Day 16, its period is Day and its importance is 0.512818530929273
+"Movie 23 and type: War" in Day 16, its period is Day and its importance is 0.48791017683535776
+"Movie 43 and type: Horror" in Day 16, its period is Day and its importance is 0.5532323355185413
+"Movie 47 and type: Horror" in Day 16, its period is Day and its importance is 0.4064472632147937
+"Movie 106 and type: Comedy" in Day 16, its period is Day and its importance is 0.6930899735982914
+"Movie 107 and type: Documentary" in Day 16, its period is Day and its importance is 0.5015391623491007
+"Movie 109 and type: Sport" in Day 16, its period is Day and its importance is 0.43489396669430014
+"Movie 115 and type: Adventure" in Day 16, its period is Day and its importance is 0.5820934803582769
+"Movie 121 and type: Action" in Day 16, its period is Day and its importance is 0.536169932918887
+"Movie 136 and type: Adventure" in Day 16, its period is Day and its importance is 0.6060963791552862
+.
+.
+.
+
+
+List of Intentions day 15:
+"Movie 106 and type: Comedy" in Day 16, its period is Day and its importance is 0.6930899735982914
+"Movie 44 and type: Action" in Day 16, its period is Night and its importance is 0.680818019422981
+"Movie 52 and type: Action" in Day 17, its period is Day and its importance is 0.7288936337785507
+"Movie 193 and type: Action" in Day 17, its period is Night and its importance is 0.7512076712550506
+"Movie 167 and type: Sci-Fi" in Day 18, its period is Day and its importance is 0.794768106914661
+"Movie 147 and type: Comedy" in Day 18, its period is Night and its importance is 0.8244507470560465
+"Movie 264 and type: Comedy" in Day 19, its period is Day and its importance is 0.6696009192069325
+"Movie 876 and type: Comedy" in Day 19, its period is Night and its importance is 0.665663242655568
+"Movie 75 and type: Comedy" in Day 20, its period is Day and its importance is 0.6912042371635179
+"Movie 24 and type: Sci-Fi" in Day 20, its period is Night and its importance is 0.7741641810292137
+"Movie 209 and type: Action" in Day 21, its period is Day and its importance is 0.7199649046803575
+"Movie 77 and type: Comedy" in Day 21, its period is Night and its importance is 0.7649157695148083
+
+
+
+Zaum wakes up at Day 16
+List of 10 Desires day 16:
+"Movie 12 and type: Action" in Day 16, its period is Day and its importance is 0.512818530929273
+"Movie 23 and type: War" in Day 16, its period is Day and its importance is 0.48791017683535776
+"Movie 43 and type: Horror" in Day 16, its period is Day and its importance is 0.5532323355185413
+"Movie 47 and type: Horror" in Day 16, its period is Day and its importance is 0.4064472632147937
+"Movie 106 and type: Comedy" in Day 16, its period is Day and its importance is 0.6930899735982914
+"Movie 107 and type: Documentary" in Day 16, its period is Day and its importance is 0.5015391623491007
+"Movie 109 and type: Sport" in Day 16, its period is Day and its importance is 0.43489396669430014
+"Movie 115 and type: Adventure" in Day 16, its period is Day and its importance is 0.5820934803582769
+"Movie 121 and type: Action" in Day 16, its period is Day and its importance is 0.536169932918887
+"Movie 136 and type: Adventure" in Day 16, its period is Day and its importance is 0.6060963791552862
+.
+.
+.
+
+
+List of Intentions day 16:
+"Movie 106 and type: Comedy" in Day 16, its period is Day and its importance is 0.6930899735982914
+"Movie 44 and type: Action" in Day 16, its period is Night and its importance is 0.680818019422981
+"Movie 52 and type: Action" in Day 17, its period is Day and its importance is 0.7288936337785507
+"Movie 193 and type: Action" in Day 17, its period is Night and its importance is 0.7512076712550506
+"Movie 167 and type: Sci-Fi" in Day 18, its period is Day and its importance is 0.794768106914661
+"Movie 147 and type: Comedy" in Day 18, its period is Night and its importance is 0.8244507470560465
+"Movie 264 and type: Comedy" in Day 19, its period is Day and its importance is 0.6696009192069325
+"Movie 876 and type: Comedy" in Day 19, its period is Night and its importance is 0.665663242655568
+"Movie 75 and type: Comedy" in Day 20, its period is Day and its importance is 0.6912042371635179
+"Movie 24 and type: Sci-Fi" in Day 20, its period is Night and its importance is 0.7741641810292137
+"Movie 209 and type: Action" in Day 21, its period is Day and its importance is 0.7199649046803575
+"Movie 77 and type: Comedy" in Day 21, its period is Night and its importance is 0.7649157695148083
+
